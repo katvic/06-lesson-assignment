@@ -10,7 +10,7 @@ html body * {
   box-sizing: border-box;
 }
 #main {
-  max-width: 1300px;
+  max-width: 960px;
   margin: 0 auto;
   padding: 20px;
 }
@@ -23,10 +23,10 @@ html body * {
 
 .row {
   width: 100%;
-  padding: 0px;
-  border: 5px dotted red;
+  padding: 0px 0px;
+  border: 0px dotted red;
   margin-top: 0px;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
 }
 .row, .coworking:after {
   content: '';
@@ -38,7 +38,7 @@ html body * {
   padding: 200px 300px;
   border: 0px dotted black;
   background: url(coworking.jpg) no-repeat center;
-  background-size: 100%;
+  background-size: cover;
 }
 div.transparent {
   width: 300px;
@@ -56,6 +56,7 @@ div.header {
   border-style: solid;
   background-color: #c6c6c6;
   box-shadow: 0px 5px 0px -3px #9e9e9e;
+  overflow: auto;
 }
 .col {
   float: left;
@@ -72,7 +73,6 @@ div.header {
 }
 .grid-item {
   min-height: 150px;
-  background-color: #AC4F6D;
   margin-bottom: 0px;
   margin-top: 0px;
 }
@@ -155,38 +155,25 @@ div.header {
 }
 }
 h1 {
+    color: #0000000;
     display: block;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: bold;
     font-family: 'Open Sans', sans-serif;
-    text-align: center;
 }
 a:link, a:visited {
-    background-color: #AC4F6D;
     color: white;
     padding: 14px 10px;
     text-align: center; 
     text-decoration: none;
     display: inline-block;
 }
-
-a:hover, a:active {
-    background-color: #DB7093;
-}
 .title {
-    background-color: #AC4F6D;
     color: white;
     padding: 14px 10px;
     text-align: center; 
     text-decoration: none;
 }
-
-h1{
-    font-size: 52px;
-    color: #FDF731;
-
-}
-
 h2{
   color: #fff;
 }
@@ -199,7 +186,10 @@ h3{
   color: #000;
   text-align: left;
 }
-
+h4 {
+  color: #000;
+  text-align: center;
+}
 .tra-text{
   color: #000;
   text-align: left;
