@@ -1,0 +1,132 @@
+body {
+
+background-color: #000000;
+  background-repeat: no-repeat;
+  background-position: right bottom; 
+  background-attachment: fixed; 
+}
+html body,
+html body * {
+  box-sizing: border-box;
+}
+#main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.container {
+  width: 100%;
+  padding: 10px;
+  border: 0px solid black;
+}
+
+.row {
+  width: 100%;
+  padding: 10px;
+  border: 1px dotted black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.row, .coworking:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.coworking {
+  width: 100%;
+  padding: 100px;
+  border: 1px dotted black;
+  background: url(coworking.jpg);
+  background-size: 100%;
+}
+
+.col {
+  float: left;
+  width: 100%;
+  padding: 10px;
+  border: 0px dotted red;
+}
+.rightcol {
+  float: right;
+  width: 100%;
+  padding: 10px;
+  border: 0px dotted red;
+  text-align: right;
+}
+.grid-item {
+  min-height: 150px;
+  background-color: #AC4F6D;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+.col-1 {
+  width: 8.33%
+}
+
+.col-2 {
+  width: 16.66%;
+}
+
+.col-3 {
+  width: 25%;
+
+}
+.col-4 {
+  width: 33.33%;
+}
+
+.col-5 {
+  width: 41.66%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.33%;
+}
+
+.col-8 {
+  width: 66.66%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.33%;
+}
+
+.col-11 {
+  width: 91.66%;
+}
+
+.col-12 {
+  width: 100%;
+}
+}
+h1 {
+font-family: helvetica;
+}
+a:link, a:visited {
+    background-color: #AC4F6D;
+    color: white;
+    padding: 14px 10px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active {
+    background-color: #DB7093;
+}
+.title {
+    background-color: #AC4F6D;
+    color: white;
+    padding: 14px 10px;
+    text-align: center; 
+    text-decoration: none;
+}
